@@ -1591,4 +1591,11 @@ return array(
     'Whoops\\Run' => $vendorDir . '/filp/whoops/src/Whoops/Run.php',
     'Whoops\\Util\\Misc' => $vendorDir . '/filp/whoops/src/Whoops/Util/Misc.php',
     'Whoops\\Util\\TemplateHelper' => $vendorDir . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
+    'scss_formatter' => $vendorDir . '/leafo/scssphp/scss.inc.php',
+    'scss_formatter_compressed' => $vendorDir . '/leafo/scssphp/scss.inc.php',
+    'scss_formatter_crunched' => $vendorDir . '/leafo/scssphp/scss.inc.php',
+    'scss_formatter_nested' => $vendorDir . '/leafo/scssphp/scss.inc.php',
+    'scss_parser' => $vendorDir . '/leafo/scssphp/scss.inc.php',
+    'scss_server' => $vendorDir . '/leafo/scssphp/scss.inc.php',
+    'scssc' => $vendorDir . '/leafo/scssphp/scss.inc.php',
 );

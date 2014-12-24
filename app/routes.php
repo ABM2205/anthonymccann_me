@@ -13,5 +13,11 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+ $view = View::make('corpus/core')->nest('animus', 'animus/home');
+ return $view;
+});
+
+Route::get('/home/{page}', function($page = null)
+{
+	return View::make('/home/'.$page);
 });
