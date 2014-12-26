@@ -1,0 +1,16 @@
+/* css reset*/
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import '/resets/normalize';
+
+/* color */
+
+@import '/colors/washed_out_sky';
+
+body {
+    background-color:$sky_purple;
+}
+
+body, html { 
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}

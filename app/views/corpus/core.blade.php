@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8" />
         <title>Anthony McCann</title>
-        @section('corpus/includes')
+        @include('corpus/includes')
     </head>
  
     <body>
-        {{ $animus }}
+    {{ $animus }}
     </body>
 
 </html>

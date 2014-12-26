@@ -1,0 +1,2 @@
+<p>Menubar</p>
+{{ $content }}
