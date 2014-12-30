@@ -3,10 +3,13 @@
 class pages extends BaseController {
 
 public function home(){
-    $content = View::make('animus/home'); // The Core content of the page
-    $animus = View::make('corpus/menubar')->with('content',$content); // loading the menubar, html is modularized
-    return View::make('corpus/core')->with('animus',$animus); // putting it all together and loading it into the shell at {{ animus }}
-    
+    $views = array(
+        'core'      => 'animus/home',
+        'menubar_1' => 'corpus/menubar',
+        'control'   => 'corpus/control_panel',
+        'body'      => 'corpus/core'
+    );
+    return nested_view_assembly::construct_view($views);
 }
 
 

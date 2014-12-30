@@ -1,0 +1,38 @@
+@import 'colors/washed_out_sky.scss';
+@import 'font/font.scss';
+.text_box_1 {
+    
+    position: absolute;
+    left: 250px;
+    right: 1050px;
+    top: 50px;
+    bottom: 50px;
+    font-family: akashiregular;
+    font-size: medium;
+    p {
+        color: $sky_blue_1;
+    }
+}
+
+.text_box_2 {
+    z-index:100;
+    position: absolute;
+    left: 950px;
+    right: 0px;
+    top: 550px;
+    bottom: 50px;
+    
+    width: 800px;
+    
+    font-family: akashiregular;
+    font-size: thin;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    p {
+        font-size: 50%;
+        font-size: thin;
+        color: $sky_blue_1;
+        overflow-y: hidden;
+    overflow-x: hidden;
+    }
+}

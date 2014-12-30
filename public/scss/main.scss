@@ -6,11 +6,39 @@
 
 @import '/colors/washed_out_sky';
 
-body {
-    background-color:$sky_purple;
-}
+@import 'menubars';
+@import 'text_box_1';
 
 body, html { 
     overflow-x: hidden; 
     overflow-y: hidden;
+}
+
+body {
+    background-color:$sky_purple;
+    position:fixed;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+
+.code_box{
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    
+}
+
+#control_panel{
+    position: absolute;
+    left: 25px;
+    top: 700px;
+    z-index: 200;
+    
+    height: 200px;
+    width: 150px;
+    background-color:$sky_purple;
+   
 }

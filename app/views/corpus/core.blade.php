@@ -7,7 +7,7 @@
     </head>
  
     <body>
-    {{ $animus }}
+    {{ $content }}
     </body>
 
 </html>
